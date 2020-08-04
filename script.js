@@ -33,7 +33,7 @@ document.onkeydown = function(event){
         else if(event.keyCode == 39 || event.keyCode == 68) moveRight();
         else if(event.keyCode == 40 || event.keyCode == 83) moveDown();
         else if(event.keyCode == 37 || event.keyCode == 65) moveLeft();
-        scoreLabel.innerHTML = "Score :" + score ;
+        scoreLabel.innerHTML = "Puntaje :" + score ;
     }
 }
 
